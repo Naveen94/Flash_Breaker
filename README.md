@@ -2,23 +2,23 @@
 
 # Dependencies:
 
-# Operating System: 
+# I Operating System: 
 
 Windows
 
-# Programs: 
+# II Programs: 
 
 Python 2.7, 
 
 JPEXS Flash Decompiler. 
 
-# Python Packages:
+# III Python Packages:
 
 pyfiglet,
 
 colorama
 
-# Usage:
+# IV Usage:
 
 Step 1: Place all the Flash files inside the Flash_Files folder.
 
