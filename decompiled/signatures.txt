@@ -1,0 +1,56 @@
+geturl\(.*clicktag.*\)
+geturl\(.*(_root\.|_level0\.|_global\.).*\)
+geturl\([^'".]*\)
+\bExternalInterface.call\b
+ExternalInterface\.call\(.*(_root\.|_level0\.|_global\.).*\)
+\.html.*=.*true(.|\n|\r){0,45}\.htmlText.*=.*(_root\.|_level0\.|_global\.)
+\bloadVariables\(.*(_root\.|_level0\.|_global\.).*\)
+\bloadMovie(Num)?\(.*(_root\.|_level0\.|_global\.).*\)
+\bFScrollPane\.loadScrollContent\(.*(_root\.|_level0\.|_global\.).*\)
+\bLoadVars\.load\(.*(_root\.|_level0\.|_global\.).*\)
+\bLoadVars\.send(AndLoad)?\(.*(_root\.|_level0\.|_global\.).*\)
+\bMovieClip\.(getURL|loadMovie)\(.*(_root\.|_level0\.|_global\.).*\)
+\bNetConnection\.connect\(.*(_root\.|_level0\.|_global\.).*\)
+\bNetServices\.createGatewayConnection\(.*(_root\.|_level0\.|_global\.).*\)
+\bNetSteam\.play\(.*(_root\.|_level0\.|_global\.).*\)
+\bSound\.loadSound\(.*(_root\.|_level0\.|_global\.).*\)
+\bXML\.load\(.*(_root\.|_level0\.|_global\.).*\)
+\bXML\.send(AndLoad)?\(.*(_root\.|_level0\.|_global\.).*\)
+Security\.allowInsecureDomain\(["']\*['"]\)
+Security\.allowDomain\(["']\*['"]\)
+LocalConnection\.allowDomain\(["']\*['"]\)
+SharedObject\.getLocal\(.*['"]\/['"]
+System\.security\.loadPolicyFile\(.*(_root\.|_level0\.|_global\.).*\)
+SharedObject\.getLocal\(
+\.loadbytes\(
+\btrace\(.*\)\;
+-----BEGIN\sPGP\sPRIVATE\sKEY\sBLOCK-----(.|\n|\r)+-----END\sPGP\sPRIVATE\sKEY\sBLOCK-----
+-----BEGIN\sPGP\sPUBLIC\sKEY\sBLOCK-----(.|\n|\r)+-----END\sPGP\sPUBLIC\sKEY\sBLOCK-----
+-----BEGIN\sRSA\sPRIVATE\sKEY-----(.|\n|\r)+-----END\sRSA\sPRIVATE\sKEY-----
+"(SELECT(\s|\+|(%20))+[\w\*\)\(\;;\s]+(\s|\+|(%20))+FROM(\s|\+|(%20))+[\w]+)|(UPDATE(\s|\+|(%20))+[\w]+(\s|\+|(%20))+SET(\s|\+|(%20))+[\w\;;\'\=]+)|(INSERT(\s|\+|(%20))+INTO(\s|\+|(%20))+[\d\w]+[\s\w\d\)\(\;;]*(\s|\+|(%20))+VALUES(\s|\+|(%20))+\([\d\w\'\;;\)]+)|(DELETE(\s|\+|(%20))+FROM(\s|\+|(%20))+[\d\w\'\=]+)"
+[^\d]10\.\d\d?\d?\.\d\d?\d?\.\d\d?\d?[^\d] OR [^\d](172\.[123]\d\.\d\d?\d?\.\d\d?\d?)[^\d] OR [^\d](192\.168\.\d\d?\d?\.\d\d?\d?)[^\d]
+\b[a-fA-F0-9]{32}\b
+[^0-9a-f\-](?:4\d{3}|5[1-5]\d{2}|6011|3\d{3})(?:\d{12}|-\d{4}-\d{4}-\d{4})[^0-9a-f\.] OR [^0-9a-f\-](?:3[47]\d{2}|2131|1800)(?:\d{11}|-\d{6}-\d{5})[^0-9a-f\.] OR [^0-9a-f\-]2(?:014|149)(?:\d{11}|-\d{7}-\d{4})[^0-9a-f\.] OR [^0-9a-f\-]3(?:[68]\d{2}|0[0-5]\d)(?:\d{10}|-\d{6}-\d{4})[^0-9a-f\.] OR [^0-9a-f\-]4\d{3}(?:\d{9}|-\d{3}-\d{3}-\d{3})[^0-9a-f\.]
+"((LDAP:///?[\w/=;;%:$?()!&*|~<>]+)|((o|ou|dc|cn|uid|dn|sn|objectclass|objectcategory|st|mail|(given)?name|description|displayname|telephonenumber|memberuid|postalcode|streetaddress|targetaddress|userpassword)\s*=\s*[\w\x20()?~!:/]+;;?){2;;})"
+"(?:(?<![/\w""']))(?:/usr/(?:share|lib|local|s?bin)/|/etc/(?!(?:master\.)?passwd)|/var/|/tmp/|/Users/|/s?bin/|/opt/|/root/|/home/)[\w/\.]+ AND NOT (?:href|src|dynsrc|lowsrc|link|url|action|data|codebase|classid|archive|background|pluginspage|profile|usemap|cite|longdesc|path)\s*=\s*['""]?(?:(?<![/\w""']))(?:/usr/(?:share|lib|local|s?bin)/|/etc/(?!(?:master\.)?passwd)|/var/|/tmp/|/Users/|/s?bin/|/opt/|/root/|/home/)[\w/\.]+"
+(?:>|\s|=)[c-zC-Z]:[\\/][a-zA-Z0-9]
+(?:[0-5][0-9][0-9]|6[0-4][0-9])-\d{2}-\d{4}]] OR ^(?:[0-5][0-9][0-9]|6[0-4][0-9])-\d{2}-\d{4}$
+"(/{0;;2}[\w\d\-]+(\[[^/\]]+\])*/(([\w\-\*]+/)*[\w\-]*\[[<>\w\d\-\.@!=()\x20\""\']+\](/[\w\-\*]+)*)+)|(//[\w\d\-]+(\[[^/\]]+\])+)"
+\b[a-fA-F0-9]{40}\b
+\baccesse[sd]\b
+_loc4_[_loc8_] = function()
+\badmin(istrator)?(s)?\b
+\bauth(enticate|orization)?(s)?\b
+\bauthenticat(ing|ed|ion){1}\b
+\bcred(ential)?(s)?\b
+\blog(i|o){1}n(s)?\b
+\b((passw(or)?d(s)?)|pwd)\b
+\b((user(name)?(s)?)|uname|uid|usr)\b
+\b((passw(or)?d(s)?)|pwd)\b\s{0,4}[=:]{1,2}\s{0,3}[A-Za-z0-9_!@#$~%\/.><^&*();:-]+\b
+\b((secur((e(s|d)?){1}|ing))|ssl|privacy|master)\b
+\b(coded|config(uration)?(s)?|database|db|debug(ging)?|host(s)?|licens(e(d|s)?|ing){1}|log(file)?(s)?|quer(ie|y)(s)?|sql(s)?)\b
+\b(birth|dob|ein|email(s|ed)?|employe(e|es|r)|ident(ification|ity)?|maiden|personal|salar(ie|y)(s)?|ssn)\b
+\b(aes|blowfish|cert(ificate)?(s)?|(de|en)?crypt(ed|o|ography|ing|s|ion)?|enc(ode(s|d)?)?|hash(ed|(e)?s)|hmac|pgp|secret(s)?|sha|md5|tea)\b
+\b(account(s)?|cost(s)?|csc|currency|cv(c|v){1}|dollar(s)?|euro(s)?|income|loan(s)?)\b
+(server|host)=.*;.*database=.*;|data\ssource=.*;|ConnectionString
+(server|host)=.*;(.|\n|\r){0,4}.*database=.*;|data\ssource=.*;|ConnectionString
