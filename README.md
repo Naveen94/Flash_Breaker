@@ -18,7 +18,7 @@ pyfiglet,
 
 colorama
 
-# IV Usage:
+# Usage:
 
 Step 1: Place all the Flash files inside the Flash_Files folder.
 
