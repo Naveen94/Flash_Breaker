@@ -2,7 +2,9 @@
 
 Dependencies:
 
-Operating System: Windows
+Operating System: 
+
+Windows
 
 Programs: 
 
@@ -18,9 +20,9 @@ colorama
 
 Usage:
 
-Place all the Flash files inside the Flash_Files folder.
+Step 1: Place all the Flash files inside the Flash_Files folder.
 
-Then click run.bat.
+Step 2: Then click run.bat.
 
-Once you the get the message "Finished", go and see the findings inside the decompiled folder.
+Step 3: Once you the get the message "Finished", go and see the findings inside the decompiled folder.
 
