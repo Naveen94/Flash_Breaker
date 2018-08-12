@@ -1,14 +1,14 @@
 # Flash Breaker - Project Hart : Flash Vulnerable Methods Finder 
 
-Operating System:
+Dependencies:
 
-Windows
+Operating System: Windows
 
 Programs: 
 
 Python 2.7, 
 
-JPEXS Flash Decompiler 
+JPEXS Flash Decompiler. 
 
 Python Packages:
 
