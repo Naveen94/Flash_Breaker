@@ -1,8 +1,8 @@
 # Flash Breaker - Project Hart : Flash Vulnerable Methods Finder 
 
-Dependencies:
+# Dependencies:
 
-Operating System: 
+# Operating System: 
 
 Windows
 
@@ -12,13 +12,13 @@ Python 2.7,
 
 JPEXS Flash Decompiler. 
 
-Python Packages:
+# Python Packages:
 
 pyfiglet,
 
 colorama
 
-Usage:
+# Usage:
 
 Step 1: Place all the Flash files inside the Flash_Files folder.
 
