@@ -28,5 +28,5 @@ Step 1: Place all the Flash files inside the Flash_Files folder.
 
 Step 2: Then click run.bat.
 
-Step 3: Once you get the message "Finished", go and see the findings inside the decompiled folder.
+Step 3: Once you get the message "Finished", go and see the findings inside decompiled folder.
 
