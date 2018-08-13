@@ -1,4 +1,4 @@
-# Flash Breaker - Project Hart : Flash Vulnerable Methods Finder 
+# Flash Breaker - Flash Vulnerable Methods Finder 
 
 # Dependencies:
 
