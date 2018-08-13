@@ -18,9 +18,9 @@ JPEXS Flash Decompiler.
 
 # III Python Packages:
 
-pyfiglet,
+Pyfiglet,
 
-colorama
+Colorama
 
 # Usage:
 
