@@ -2,7 +2,7 @@
 
 Created by Naveen KM  
 
-A  big shout out to my Mentor #Collin Hart for always pushing me to be my best!
+A  big shout out to my Mentor Collin Hart for always pushing me to be my best!
 
 # Dependencies:
 
