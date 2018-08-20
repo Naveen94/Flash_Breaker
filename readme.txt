@@ -1,4 +1,4 @@
-Project Hart - Flash Vulnerable Methods Finder
+Flash Breaker - Flash Vulnerable Methods Finder
 
 Dependencies:
 python 2.7
