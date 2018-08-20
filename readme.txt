@@ -1,10 +1,11 @@
 Flash Breaker - Flash Vulnerable Methods Finder
 
 Dependencies:
+
 python 2.7
 JPEXS Decompiler 
 
-Install the following python packages
+Install the following python packages:
 
 pyfiglet
 colorama
