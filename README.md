@@ -1,8 +1,6 @@
 # Flash Breaker - Flash Vulnerable Methods Finder 
 
-Created by Naveen KM  
-
-A  big shout out to his Mentor Collin Hart for always pushing him to be his best!
+A  big shout out to my Mentor Collin Hart for always pushing me to be my best!
 
 # Dependencies:
 
